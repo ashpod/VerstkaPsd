@@ -1,0 +1,107 @@
+ul, li{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-image: url('../img/Home.png');
+    background-position: center center;
+    background-size: cover;
+    height: 769px;
+}
+.menu_bar{
+    padding: 40px 0px 0px;
+}
+.menu_bar a{
+    color: #fff;
+}
+.menu_bar a:hover{
+    color: fuchsia;
+}
+.menu_logo{
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu_item{ 
+    margin: 0px 17px;
+    cursor: pointer;
+    font-family: 'Montserrat','Regular' ;
+    font-size: 14px;
+}
+.welcome{
+    padding: 260px 0 0;
+}
+/*срединка шапки*/
+
+.welcome{
+    text-align: center;
+    color: #fff;
+}
+.welcome_title{
+    font-size: 52px;
+}
+.welcome_text{
+    font-size: 16px;
+    margin: 35px 0px 54px;
+}
+.welcome_button{
+    padding: 17px 33px;
+    transition: 0.5s;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.welcome_button:hover{
+    border: 1px dotted rgb(240, 206, 206);
+    background: fuchsia;
+}
+/*срединка*/
+.middle{
+    background: #fff;
+    text-align: center;
+    font-family: 'Montserrat', 'Regular';
+    color: #555555;
+}
+.middle_services{
+    margin-top: 100px;
+    font-size: 20px;
+}
+.middle_cherta{
+    margin: 30px 0px;
+}
+.middle_servicetext{
+    font-size: 16px;
+}
+.service_img{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.service_h{
+    font-size: 14px;
+}
+.service_text{
+    font-size: 14px;
+}
+.midle_border{
+    padding: 0 !important
+}
+/*About US*/
+.middle_aboutas{
+    margin-top: 200px;
+    font-size: 20px;
+}
+.middle_servicetext{
+    margin-bottom: 75px;
+}
+.aboutus_aling{
+    text-align: left;
+    font-size: 14px;
+}
+.img_comanda{
+    margin-top: 73px;
+}
